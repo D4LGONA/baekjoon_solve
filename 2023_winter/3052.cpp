@@ -12,6 +12,7 @@ int main()
         bool flag = false;
         for (int j = 0; j < v.size(); ++j)
         {
+            
             if (v[j] == n % 42)
             {
                 flag = true;
