@@ -1,4 +1,5 @@
 #include <iostream>
+#include <unordered_map>
 #include <vector>
 using namespace std;
 
@@ -7,7 +8,6 @@ struct node
 	int x;
 	int y;
 	node* parent;
-
 };
 
 
@@ -19,6 +19,11 @@ pair<int, int> arr[] = { {1, 0}, {0, 1}, {-1,0}, { 0,-1 } };
 
 void BFS()
 {
+	// 
+	
+
+
+
 	vector<node> answer;
 	vector<node> queue;
 
